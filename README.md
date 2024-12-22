@@ -54,11 +54,17 @@
   ```html
  apt update -y && apt upgrade -y && apt dist-upgrade -y && reboot
   ```
-
-♦️ Installation Link<br>
+♦️ Installation Link FIX MISSING ALL<br>
 
   ```html
-sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt --fix-missing update && apt install -y bzip2 gzip coreutils screen curl && wget https://raw.githubusercontent.com/Sanjays85141/SSH-XRAY-Websocket-Multiport/main/V1/setup-lite.sh && chmod +x setup-lite.sh && ./setup-lite.sh
+apt-get --reinstall --fix-missing install -y bzip2 gzip coreutils wget screen rsyslog iftop htop net-tools zip unzip wget net-tools curl nano sed screen gnupg gnupg1 bc apt-transport-https build-essential dirmngr libxml-parser-perl neofetch git lsof
+  ```
+
+
+♦️ Installation Link ALL SERVICE RUNNING <br>
+
+  ```html
+bash <(curl -Ls https://raw.githubusercontent.com/Sanjays85141/Funny/main/Pythoninstall)
   ```
 ♦️ Installation Link<br>
 
